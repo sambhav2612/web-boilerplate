@@ -1,6 +1,6 @@
 {
   "name": "web-boilerplate-1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "website boilerplate with google and github oauth",
   "main": "index.js",
   "scripts": {
