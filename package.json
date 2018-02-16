@@ -4,7 +4,8 @@
   "description": "website boilerplate with google and github oauth",
   "main": "index.js",
   "scripts": {
-    "test": "http-server"
+    "test": "./node_modules/.bin/mocha tests/**",
+    "serve": "http-server"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/sambhav2612/web-boilerplate-1#readme",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "node-fetch": "^1.6.3"
   }
 }
