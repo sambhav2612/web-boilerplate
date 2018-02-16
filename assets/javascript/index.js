@@ -18,7 +18,7 @@ if (window.addEventListener) {
         window.addEventListener('focus', window.myApp.onFocus);
         window.addEventListener('blur', window.myApp.onBlur);
     });
-} 
+}
 /* Detect if the browser supports `attachEvent`
   Only Internet Explorer browsers support that. */
 else if (window.attachEvent) {
@@ -41,4 +41,14 @@ else {
         window.onfocus = window.myApp.onFocus;
         window.onblur = window.myApp.onBlur;
     };
+}
+
+function openGithub() {
+
+    let prefix = "https://github.com/login/oauth/authorize?client_id==";
+    let suffix = process.env.GITHUB_CLIENT_ID;
+
+    let link = prefix + suffix;
+
+    window.open(link);
 }

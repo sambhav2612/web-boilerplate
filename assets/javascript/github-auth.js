@@ -1,4 +1,6 @@
-const GithubClient = require('github/github-client.js').GithubClient;
+'use strict';
+
+const GithubClient = require('libs/GithubClient.js').GithubClient;
 
 let githubDotCom = new GithubClient({
     baseUri: "https://api.github.com",
