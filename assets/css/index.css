@@ -5,3 +5,7 @@ body {
     color: #000000;
     font-family: 'Roboto', sans-serif;
 }
+
+body .jumbotron-fluid .container{
+    font-family: 'Josefin Sans', sans-serif;
+}
