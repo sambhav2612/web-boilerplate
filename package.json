@@ -1,0 +1,30 @@
+{
+  "name": "web-boilerplate-1",
+  "version": "0.0.1",
+  "description": "website boilerplate with google and github oauth",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhav2612/web-boilerplate-1.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "bootstrap",
+    "html",
+    "css",
+    "javascript",
+    "service-worker"
+  ],
+  "author": "Sambhav Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sambhav2612/web-boilerplate-1/issues"
+  },
+  "homepage": "https://github.com/sambhav2612/web-boilerplate-1#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
