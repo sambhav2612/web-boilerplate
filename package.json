@@ -27,6 +27,8 @@
   "homepage": "https://github.com/sambhav2612/web-boilerplate-1#readme",
   "dependencies": {
     "http-server": "^0.11.1",
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^1.6.3",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0"
   }
 }

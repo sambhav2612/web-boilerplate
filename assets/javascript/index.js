@@ -3,7 +3,7 @@
 window.myApp = {
     // Function to use for the `focus` event.
     onFocus: function () {
-        document.title = 'web-boilerplate-1';
+        document.title = 'web-boilerplate';
     },
     // Function to use for the `blur` event.
     onBlur: function () {
@@ -14,7 +14,7 @@ window.myApp = {
 if (window.addEventListener) {
     // Handle window's `load` event.
     window.addEventListener('load', function () {
-        document.title = "web-boilerplate-1";
+        document.title = "web-boilerplate";
         window.addEventListener('focus', window.myApp.onFocus);
         window.addEventListener('blur', window.myApp.onBlur);
     });
@@ -25,7 +25,7 @@ else if (window.attachEvent) {
     // Handle window's `load` event.
     window.attachEvent('onload', function () {
         // Wire up the `focus` and `blur` event handlers.
-        document.title = "web-boilerplate-1";
+        document.title = "web-boilerplate";
         window.attachEvent('onfocus', window.myApp.onFocus);
         window.attachEvent('onblur', window.myApp.onBlur);
     });
@@ -37,18 +37,8 @@ else {
     // Handle window's `load` event.
     window.onload = function () {
         // Wire up the `focus` and `blur` event handlers.
-        document.title = "web-boilerplate-1";
+        document.title = "web-boilerplate";
         window.onfocus = window.myApp.onFocus;
         window.onblur = window.myApp.onBlur;
     };
-}
-
-function openGithub() {
-
-    let prefix = "https://github.com/login/oauth/authorize?client_id==";
-    let suffix = process.env.GITHUB_CLIENT_ID;
-
-    let link = prefix + suffix;
-
-    window.open(link);
 }
