@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/**",
-    "github": "nodemon ./assets/javascript/github.js localhost 3000"
+    "github": "nodemon ./assets/javascript/github.js localhost 3000",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
   "homepage": "https://github.com/sambhav2612/web-boilerplate-1#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "nodemon": "^1.15.1"
-  }
+    "nodemon": "^1.15.1",
+    "snyk": "^1.116.2"
+  },
+  "snyk": true
 }
