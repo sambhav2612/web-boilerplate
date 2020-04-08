@@ -27,6 +27,6 @@
   "homepage": "https://github.com/sambhav2612/web-boilerplate-1#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "nodemon": "^1.15.1"
+    "nodemon": "^2.0.3"
   }
 }
